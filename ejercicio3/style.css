@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 800px;
+    margin: 100px auto;
+}
+
+td, th{
+    border: solid 1px grey;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: #aaa;
+}
+
+td:nth-child(n), th:nth-child(n){
+    text-align: center;
+}
+tbody tr:hover{
+    background-color: rgb(160 222 225);
+}
+
+thead{
+    background-color: #222;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+caption{
+    font-size: 32px;
+    color: rgb(239, 228, 7);
+    
+}
