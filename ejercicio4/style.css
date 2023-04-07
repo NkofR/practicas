@@ -5,6 +5,7 @@ body{
 }
 
 .notification{
+    cursor: pointer;
     width: 48px;
     margin: 100px auto;
 
